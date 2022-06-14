@@ -1,0 +1,20 @@
+{
+  "name": "chheung-test-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare" : "npm run build",
+    "build": "tsc"
+  },
+  "file": [
+    "lib/**/*"
+  ],
+  "keywords": [],
+  "author": "Chheung",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
