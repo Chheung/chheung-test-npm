@@ -11,6 +11,10 @@
   "file": [
     "lib/**/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chheung/chheung-test-npm.git"
+  },
   "keywords": [],
   "author": "Chheung",
   "license": "ISC",
