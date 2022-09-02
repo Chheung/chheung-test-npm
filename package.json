@@ -25,5 +25,8 @@
   },
   "peerDependencies": {
     "lodash": "^4.17.21"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
