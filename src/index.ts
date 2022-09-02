@@ -1,7 +1,14 @@
 import * as _ from "lodash";
-import * as axios from "axios";
+import axios from "axios";
 
-export const Greeter = (name: string) => {
+export const Greeter = async (name: string) => {
+  const res = await axios({
+    method: "GET",
+    url: "https://www.ship24.com/metadata",
+  });
+
+  console.log("res ", JSON.stringify(res.data));
+
   const randomNames = ["chheung", "chheung2", "chheung3"];
 
   return `Hello ${_.sample(randomNames)}`;
