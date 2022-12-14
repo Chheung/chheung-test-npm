@@ -9,7 +9,7 @@ export const Greeter = async (name: string) => {
 
   console.log("res ", JSON.stringify(res.data));
 
-  const randomNames = ["chheuffng", "chheung2", "chheung3"];
+  const randomNames = ["chheufddfng", "chheung2", "chheung3"];
 
   return `Hello ${_.sample(randomNames)}`;
 };
